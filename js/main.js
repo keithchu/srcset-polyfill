@@ -30,8 +30,8 @@
         // Replace the <img src> with this image.
         img.src = imageInfo.src;
         // Scale the image if necessary (ie. x != 1).
-        img.style.webkitTransform = 'scale(' + (1/imageInfo.x) + ')';
-        img.style.webkitTransformOrigin = '0 0';
+        // img.style.webkitTransform = 'scale(' + (1/imageInfo.x) + ')';
+        // img.style.webkitTransformOrigin = '0 0';
       }
     }
   }
